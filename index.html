@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>crow crow link</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"></link>
+<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.color.js"></script> -->
+<script type="text/javascript" src="js/linkGame.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+	<div class="play_wrap clearfix">
+        <div id="play_time">
+            <div id="play_time_b" class="play_time_b">
+                <div id="play_time_p"></div>
+                <div id="play_time_t">100</div>
+            </div>            
+        </div>
+        <div id="play_score">得分：<span id="play_score_s">0</span></div>
+		<div id="play_area"></div>
+    </div>
+    <div class="play_menu">
+        <div class="play_btn clearfix">
+        	<a id="play_btn_start" class="play_btn" href="javascript:void(0);" unselectable="on">开始</a>
+            <a id="play_btn_reset" class="play_btn" href="javascript:void(0);" unselectable="on">重来</a>
+        </div>
+    </div>
+        
+</div>
+<script>
+    $("a[rel=popover]").popover();
+</script>
+</body>
+</html>
